@@ -1,0 +1,6 @@
+Flask==2.0.1
+celery==4.1.1
+redis==2.10.6
+kombu==4.2.0
+requests==2.24.0
+Flask-PyMongo==2.3.0

@@ -1,0 +1,13 @@
+# Basics
+*.py[cod]
+__pycache__
+
+# Pycharm
+.idea
+.idea/
+.idea/*
+
+# virtual environments
+.env
+.venv
+venv/
