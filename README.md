@@ -12,4 +12,5 @@ bash install_redis.sh
 python -m flask run
 
 venv/bin/celery beat -A app.celery --schedule=/tmp/celerybeat-schedule --loglevel=INFO --pidfile=/tmp/celerybeat.pid
+
 venv/bin/celery worker -A app.celery --loglevel=INFO
